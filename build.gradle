@@ -49,6 +49,7 @@ subprojects {
 
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
+        implementation 'com.google.code.gson:gson:2.12.0' 
         mappings loom.officialMojangMappings()
     }
 
